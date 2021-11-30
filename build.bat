@@ -93,9 +93,11 @@ echo         "%~2/vendor/GLFW/src/input.c",
 echo         "%~2/vendor/GLFW/src/monitor.c",
 echo         "%~2/vendor/GLFW/src/vulkan.c",
 echo         "%~2/vendor/GLFW/src/window.c",
+echo         "%~2/vendor/GLFW/src/platform.c",
+echo         "%~2/vendor/GLFW/src/null**.c",
 echo         "%~2/vendor/glad/include/glad/glad.h",
 echo         "%~2/vendor/glad/include/glad/KHR/khrplatform.h",
-echo 		"%~2/vendor/glad/src/glad.c"
+echo 		 "%~2/vendor/glad/src/glad.c"
 echo     }
 echo.
 echo     includedirs {
@@ -117,7 +119,9 @@ echo             "%~2/vendor/GLFW/src/win32_thread.c",
 echo             "%~2/vendor/GLFW/src/win32_window.c",
 echo             "%~2/vendor/GLFW/src/wgl_context.c",
 echo             "%~2/vendor/GLFW/src/egl_context.c",
-echo             "%~2/vendor/GLFW/src/osmesa_context.c"
+echo             "%~2/vendor/GLFW/src/osmesa_context.c",
+echo             "%~2/vendor/GLFW/src/win32_module.c",
+echo             "%~2/vendor/GLFW/src/win32_platform.h"
 echo         }
 echo.
 echo         defines  {
